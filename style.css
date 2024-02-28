@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    border: 10px solid red;
+    background-color: lightskyblue;
+}
+#inputWrapper{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    border: 10px solid blue;
+    background-color: lightskyblue;
+}
+
+
+#arrayWrapper{
+    height: 600px;
+    width: 500px;
+    border: 10px solid green;
+    background-color: yellow;
+}
+button{
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+}
