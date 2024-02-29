@@ -31,19 +31,14 @@ const Inventor: InventorType[] = [];
 const input = document.createElement("input")
 input.classList.add("addGameInput")
 input.type = 'text';
-input.value = 'add game';
-// input.innerText = 'add game'
-// why this doenst work?========
+input.placeholder = 'add game'
 inputWrapper.append(input)
 
 const inputSelect = document.createElement("input");
 inputSelect.classList.add("addSelectInput");
-// inputSelect.innerText = 'add game by type';
-// InventorCard.append(inputSelect);
 inputSelect.type = 'text';
-inputSelect.value = 'add selected game';
+inputSelect.placeholder = 'add selected game';
 inputWrapper.append(inputSelect)
-// why innerText does not appear ?=========
 
 const buttonWrapper = document.getElementById("buttons") as HTMLElement;
 // task9==============
@@ -117,7 +112,7 @@ addGameToInventor({
     platform: 'PC',
     type: 'game'
 });
-console.log('A')
+console.log('last code line')
 
 
 
